@@ -1,0 +1,48 @@
+div {
+  font-family: Helvetica;
+}
+
+img {
+  float: left;
+  padding-right: 7px;
+}
+
+#header {
+  color: grey;
+  width: 570px;
+  height: 50px;
+  float: left;
+  padding-top: 1%;
+  text-align: center;
+  font-size: 1.3em;
+  margin-right:50%;
+}
+
+.day {
+  float: left;
+  font-size: 85%;
+  padding-top: 5%;
+  color: #494949;
+}
+
+.dayOfWeek {
+  color: white;
+  width: 165px;
+  height: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.dayContainer {
+  margin-left: 1.5%;
+  float: left;
+  width: 180px;
+  height: 60px;      
+}
+
+.forecastContainer {
+  /*float:left;*/
+  /*position: absolute;*/
+  clear: left;
+  margin-right:50%;
+}
