@@ -15,7 +15,6 @@ function showQuery(){
   
   // check if query is valid, must have at least 2 search items
   if (pageQueryArr.length < 2){ // if less than 2 queries - invalid search
-    // console.log('intentionally left blank');
     return;
   }
 
@@ -116,7 +115,6 @@ function getDate(str){
  
   // if date is valid (ie on of the first 8 of the 10-day forecast)
   if(mergeDate - today > 691200000 || mergeDate - today < 0){ // eight days == 691200000ms
-    // console.log('invalid date');
     result = false; // return blank page
   }
   

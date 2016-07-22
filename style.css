@@ -11,7 +11,6 @@ img {
   color: grey;
   width: 570px;
   height: 50px;
-  float: left;
   padding-top: 1%;
   text-align: center;
   font-size: 1.3em;
@@ -41,8 +40,6 @@ img {
 }
 
 .forecastContainer {
-  /*float:left;*/
-  /*position: absolute;*/
   clear: left;
   margin-right:50%;
 }
