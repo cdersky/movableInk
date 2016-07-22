@@ -195,5 +195,11 @@ function setWeatherIcon(imgTag, info){
 }
 
 function setWeatherInfo(contentDiv, info){
-  contentDiv.innerHTML = info.conditions + '<br><br><b>' + info.high.fahrenheit + String.fromCharCode(186) + '</b> / ' + info.low.fahrenheit + String.fromCharCode(186) + ' F';
+  let conditions = info.conditions;
+  let hiLo = info.high.fahrenheit + String.fromCharCode(186) + '</b> / ' + info.low.fahrenheit + String.fromCharCode(186) + ' F';
+  let space = '<br>';
+  if(conditions.length < 17){
+    space +='<br>';
+  };
+  contentDiv.innerHTML = conditions + space + hiLo;
 }
